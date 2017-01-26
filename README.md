@@ -10,6 +10,11 @@ USE=-savedconfig emerge x11-wm/dwm
 ```
 
 * modify /etc/portage/savedconfig/x11-wm/dwm-6.1 (hint: you can symling dwm-6.1 to dwm-6.1.h to get syntax highlighting in vim)
-* enable savedconfig USEflag for dwm ```flaggie dwm +savedconfig```
+* enable savedconfig USEflag for dwm 
+
+```bash
+flaggie dwm +savedconfigi
+```
+
 * emerge dwm
 * repeat for x11-terms/st
